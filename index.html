@@ -4,91 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-   
+    <title>Homee|Adarshbalak</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-   <h1>Welcome to Tanaypratp's component component library</h1> <h1>Another heading</h1>
-   <p>I am attending neog.camp and i want to make a library which would make all my projects look good and</p>
-   <hr>
-   <h2>@typography</h2>
-   <h1>This is the biggest heading
-   </h1>
-   <h2>This the second largest </h2>
-<p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph</p>
-<small>This is the smallest one</small>
-    <hr>
-    <h2>container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end pf the page</div>
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-    <hr>
-    <h2>@Links</h2>
-     <a href="/">Primary Link</a>
-     <a href="/">Secondary Link</a>
-     <hr>
-      <h2>@list</h2>
-      <h3>unordered list</h3>
-      <ul>
-        <li>Items one</li>
-        <li>Items two</li>
-        <li>Items three</li>
-      </ul>
-      <h3>unordered inline list</h3>
-      <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-      </ul>
-      <h3>reverse ordered list</h3>
-      <ol>
-        <li>Krishna</li>
-        <li>Balram</li>
-        <li>Subhal</li>
-
-      </ol>
-      <hr>
-      <h2>@nav</h2>
-      <nav>
-        <div>iAmbrandname</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="nav-brand">MYFIRSTPAGE</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
 
             </li>
-            <li>
-                <a href="/">Product</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
 
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blog</a>
             </li>
 
         </ul>
-      </nav>
-      <hr>
-      <h2>header</h2>
-      <header>
-         <!-- <img src="images/programmer.jpg"/> --not working -->
-         <img src="/images/programmer.jpg" alt="coding" height="100"/>
+    </nav>
+    <header class="hero">
+        <!-- <img src="images/programmer.jpg"/> --not working -->
+        <img class="hero-image" src="/images/programmer.jpg" alt="coding" />
 
+        <h1 class="hero-heading">adarsh balak <span class="hero-heading-change">the web developer</span></h1>
 
-        <br>
-        <h1>heading inside hero</h1>
+    </header> 
 
-      </header>
+    <section class="section ow">
+        <div class="container-centre">
+            <h1> technologies
+            </h1>
+            <p>I will be familiar with HTML,CSS,GIT,JAVASCRIPT,NodeJS,ReactJS and WEB HOSTING soon.</p>
 
+        </div>
 
+    </section>
 
+    <section class="section ">
+        <div class="container-centre">
+            <h1> projects
+            </h1>
+            <p>I will like to showcase my work and thus you can see my projects hosted online.</p>
+            <a class="links primary-link" href="/"> BROWSE PROJECTS </a>
 
+        </div>
 
+    </section>
 
- <footer> 
-    <div style="height: 30vh";> 
+    <section class="section ow">
+        <div class="container-centre">
+            <h1> blogs
+            </h1>
+            <p> I am also working on some technicaland non technical blogs.I like to document my journey of learning.</p>
+            <a class="links secondary-link" href="/"> READ BLOGS </a>
 
- </div>
-</footer>     
+        </div>
+
+    </section>
+
 
 </body>
 </html>
